@@ -1,13 +1,17 @@
 'use strict'
 
 // select element
-const navLink = document.querySelectorAll('.navbar-link');
+const navLinks = document.querySelector('.nav__links');
 
 // scrolling function
-navLink.forEach(function (el) {
-    el.addEventListener('click', function (e) {
-        e.preventDefault();
-        const id = this.getAttribute('href');
+navLinks.addEventListener('click', function (e) {
+    e.preventDefault();
+
+    // Matching stratgy
+    if (e.target.classList.contains('navbar-link')) {
+        const id = e.target.getAttribute('href');
         document.querySelector(id).scrollIntoView({ behavior: 'smooth' })
-    })
+    }
 })
+
+
