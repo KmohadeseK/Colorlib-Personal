@@ -19,25 +19,25 @@
              <!--main-menu html [START]-->
             <div id="main-menu">
                 <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">SERVICES</a></li>
-                    <li><a href="#">PORTFOLIO</a></li>
-                    <li><a href="#">PRICING</a></li>
+                    <li><a class="navbar-link" href="#home">HOME</a></li>
+                    <li><a class="navbar-link" href="#about">ABOUT</a></li>
+                    <li><a class="navbar-link" href="#services">SERVICES</a></li>
+                    <li><a class="navbar-link" href="#portfolio">PORTFOLIO</a></li>
+                    <li><a class="navbar-link" href="#pricing">PRICING</a></li>
 
                      <!-- Html code main-menu ul :BLOG [START] -->
                     <li>
-                        <a href="#">BLOG</a>
+                        <a class="navbar-link" href="#blog">BLOG</a>
                         <ul>
-                            <li><a href="#">Blog Home</a></li>
-                            <li><a href="#">Blog Single</a></li>
+                            <li><a href="#blog-home">Blog Home</a></li>
+                            <li><a href="#blog-single">Blog Single</a></li>
                         </ul>
                     </li>
                     <!-- Html code main-menu ul :BLOG [END] -->
 
                     <!-- Html code main-menu ul :PAGES [START] -->
                     <li>
-                        <a href="#">PAGES</a>
+                        <a class="navbar-link" href="#pages">PAGES</a>
                         <ul>
                             <li><a href="#">Elements</a></li>
 
@@ -54,7 +54,7 @@
                     </li>
                   <!-- Html code main-menu ul :PAGES [END] -->
 
-                    <li><a href="#">CONTACT</a></li>
+                    <li><a class="navbar-link" href="#contact">CONTACT</a></li>
                 </ul>
             </div>
              <!--main-menu html [END]-->
@@ -65,7 +65,7 @@
 <!--first-main html [START]-->
        <section id="first-main">
         <!--Container-f-main html [START]-->
-        <div class="Container-f-main">
+        <div class="Container-f-main" id="home">
              <!--left-items html [START]-->
          <div class="left-items" >
             <a>THIS IS ME
@@ -90,7 +90,7 @@
        </section>
          <!--first-main html [END]-->
 <section id="second-main">
-    <div class="container-s-main">
+    <div class="container-s-main" id="about">
          <!--main-left html [START]-->
         <div class="main-left">
             <img src="images/about-img.png.webp" alt="">
@@ -121,7 +121,7 @@
            <!--part3-section html [START]-->
            <section id="part3-section">
              <!--container-part3-section html [START]-->
-             <div class="container-part3-section">
+             <div class="container-part3-section" id="services">
            <!--MyOfferedServices-text[START]-->
            <div class="My-Offered">
             <a><h1>My Offered Services</h1>
@@ -260,7 +260,7 @@
             <!--section-gap html [START]-->
             <section id="section-gap">
                 <!--container-gap html [START]-->
-            <div class="container-gap">
+            <div class="container-gap"id="portfolio">
                 <!--text-project html [START]-->
                 <div class="text-project">
                     <h1>Our Latest Featured Projects</h1>
@@ -388,7 +388,7 @@
              <!--plan-area html [START]-->
              <section id="plan-area">
                 <!--container-area html [START]-->
-<div class="container-plan">
+<div class="container-plan" id="pricing">
 <!--text-plan html [START]-->
 <div class="text-plan">
 <h1>Choose Your Plan</h1>
@@ -522,7 +522,7 @@
 <!--section posts html [START]-->
 <section id="section-posts">
     <!--container posts [START]-->
-    <div class="container-posts">
+    <div class="container-posts" id="blog">
         <!--title-post [START]-->
         <div class="title-post">
             <h1>Latest posts from our blog</h1>
@@ -612,7 +612,7 @@
 <!--last section html [START]-->
 <section id="footer">
 <!--footer-container [START]-->
-<div class="footer-container">
+<div class="footer-container" id="contact">
     <!--footer items html [START]-->
     <div class="footer-items">
         <h4>About Me</h4>
@@ -660,6 +660,9 @@
 <!--footer-container [END]-->
 </section>
 <!--last section html [END]-->
+
+<!-------------- SCRIPT JS --------------->
+<script src="script.js"></script>
 </body>
 </html>
 
