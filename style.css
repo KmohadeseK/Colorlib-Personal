@@ -48,7 +48,15 @@ h4 {
   margin-bottom: 3px;
 }
 /* General CSS [END]*/
-
+.features__img {
+  width: 100%;
+}
+.lazy-img {
+  filter: blur(20px);
+}
+.shadow-img {
+  box-shadow: -1px 1px 20px #d0d5ff;
+}
 /* Header CSS [START] */
 
 #header-container {
@@ -242,7 +250,8 @@ h4 {
 #second-main {
   width: 100%;
   display: block;
-  margin-top: 100px;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
 }
 
 .container-s-main {
